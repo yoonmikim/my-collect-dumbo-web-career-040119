@@ -4,6 +4,7 @@ def my_collect(arr)
   while i < arr.length 
     if (yield(arr[i]))
      ar << arr[i]
+   end
     i += 1
   end
   ar
